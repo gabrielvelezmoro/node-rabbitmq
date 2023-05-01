@@ -1,0 +1,13 @@
+{
+    "type": "mongodb",
+    "host": "127.0.0.1",
+    "database": "tr_node_main",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/entity/*.js"
+    ],
+    "cli": {
+        "entitesDir": "src/entity"
+    }
+}
